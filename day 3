@@ -7,3 +7,13 @@ int main(){
     }
     return 0;
 }
+\\using for loop print even number
+#include<iostream>
+using namespace std;
+int main(){
+    for(int i=2;i<=10;i+=2){
+        cout<<"value of i "<<i<<endl;
+        
+    }
+    return 0;
+}
