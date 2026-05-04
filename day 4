@@ -14,7 +14,7 @@ int main(){
         cout<<"\n";    
     }
 }
-// problem no 1 
+// problem no 12
 // print no 1 to 5, 5 times
 
 #include <iostream>
@@ -30,6 +30,26 @@ int main(){
         cout<<"\n";    
     }
 }
+// problem no 3
+// print rectangle
+
+#include <iostream>
+using namespace std;
+
+
+int main(){
+    for(int i =1; i<= 10; i++){
+        for(int j = 1; j <= 10;  j++){
+            cout << "**";
+            
+        }
+        cout<<"\n";    
+    }
+}
+
+    
+
+    
 
     
 
