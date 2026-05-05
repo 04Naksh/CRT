@@ -36,6 +36,17 @@ int main(){
     int area=calculatearea(a,b);
     cout<<area;
 }
+ 
+    //program 3 no arguement, no return value?
+#include<iostream>
+using namespace std;
+
+void sendmessage(string message){
+    cout <<message;
+}
+int main(){
+    sendmessage("bjp wons");
+}
     
     
 return 0;
