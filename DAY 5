@@ -20,5 +20,23 @@ int main(){
 }
 cout<<"\n";
 }
+
+//problem 2 
+// function with some value and some return value?
+
+#include<iostream>
+using namespace std;
+int calculatearea(int length, int width){
+    return length*width;
+    
+}
+int main(){
+    int a = 10;
+    int b = 5;
+    int area=calculatearea(a,b);
+    cout<<area;
+}
+    
+    
 return 0;
 }
