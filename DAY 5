@@ -51,3 +51,19 @@ int main(){
     
 return 0;
 }
+
+ 
+    //program 4 currency conversion
+#include<iostream>
+using namespace std;
+
+float currencyconversion(float amount){
+    return amount/ 70.0;
+    
+}
+int main(){
+    cout << currencyconversion(200);
+}
+
+
+    
