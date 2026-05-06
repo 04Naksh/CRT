@@ -1,1 +1,18 @@
+//program number --  1
+
+
+
+#include <iostream>
+using namespace std;
+
+int totalAmount(int coffee){
+    return coffee*30;
+    
+}
+    int main(){
+        cout<< totalAmount(5);
+    }
+    
+
+    
 
