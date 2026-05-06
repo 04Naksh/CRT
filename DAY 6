@@ -12,6 +12,25 @@ int totalAmount(int coffee){
     int main(){
         cout<< totalAmount(5);
     }
+
+//program number --  2
+//print store discount program?
+
+
+#include <iostream>
+using namespace std;
+
+    int totalamount(int amount)
+    {
+        return amount-(amount*100/1000);
+    }
+    int main(){
+        cout<< totalamount(1000);
+    }
+    
+    
+
+    
     
 
     
