@@ -27,7 +27,25 @@ using namespace std;
     int main(){
         cout<< totalamount(1000);
     }
-    
+//program number --  3
+//smart AC remote
+
+
+
+#include <iostream>
+using namespace std;
+
+    void set temperature(){
+        cout<<"temperature set to 22c"<<"\n";
+        
+    }
+    void set temperature(double temp){
+        cout<<"Temperature set to"<<temp <<"c "<<"\n";
+        
+    }
+    void set Temperature(string mode){
+        if(mode== "eco")
+    }    
     
 
     
