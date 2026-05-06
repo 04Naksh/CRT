@@ -88,7 +88,22 @@ int main(){
     
     
 }
-         
+// problem - 7 access specifier?
+// access of types- public,private,protected.
+
+#include<iostream>
+using namespace std;
+
+class publicpark{
+    public:
+    void enter(){
+        cout << "anyone can ender in the park...";
+    }
+};
+int main(){
+    publicpark p;
+    p.enter();
+}         
 
     
     
