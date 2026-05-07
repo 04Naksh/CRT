@@ -1,1 +1,20 @@
+//program 1 print no arguement and no return type?
 
+#include<iostream>
+using namespace std;
+
+void updatebyvalue(int a){
+    a  = 500;
+    
+}
+ void updatebyrefrence(int &a){
+a = 500;
+}
+int main(){
+    int original = 100;
+    updatebyvalue(original);
+    cout<< original <<"\n";
+    updatebyrefrence(original);
+    cout << original;
+    
+}
