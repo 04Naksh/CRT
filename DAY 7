@@ -88,5 +88,28 @@ int main(){
     student s1("nakshtra", 21);
     s1.introduce();
 }
+// program 5 wifi password
+#include<iostream>
+using namespace std;
 
+class wificonnection
+{
+    public:
+    string networkname;
+    int password;
+    
+    wificonnection() {
+        networkname="ACT fiber net";
+        password=1234;
+        
+    }
+    void showdetails(){
+        cout<< networkname << " "<<password;
+        
+    }
+};
+int main(){
+    wificonnection obj1;
+    obj1.showdetails();
+}
     
