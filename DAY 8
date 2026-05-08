@@ -65,3 +65,42 @@ int main() {
 
     return 0;
 }
+
+//program 3 multilevel inheritance
+#include<iostream>
+using namespace std;
+
+// Base class
+class vehicle {
+public:
+    void bike() {
+        cout << "Bike start" << "\n";
+    }
+};
+
+// Derived class from vehicle
+class car : public vehicle {
+public:
+    void drive() {
+        cout << "Car is start" << "\n";
+    }
+};
+
+// Derived class from car
+class truck : public car {
+public:
+    void speed() {
+        cout << "Truck is running at 9999" << "\n";
+    }
+};
+
+int main() {
+
+    truck obj1;
+
+    obj1.bike();    // inherited from vehicle
+    obj1.drive();   // inherited from car
+    obj1.speed();   // own function
+
+    return 0;
+}
