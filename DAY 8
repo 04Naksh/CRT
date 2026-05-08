@@ -158,3 +158,41 @@ int main(){
    obj1.print();
     
 }
+
+// Program 6: Encapsulation
+
+#include<iostream>
+using namespace std;
+
+class BankAccount {
+
+private:
+    int BankBalance;
+
+public:
+
+    // Setter function
+    void setBalance(int amount) {
+        if(amount >= 0) {
+            BankBalance = amount;
+        } else {
+            cout << "Enter a valid number";
+        }
+    }
+
+    // Getter function
+    int getBalance() {
+        return BankBalance;
+    }
+};
+
+int main() {
+
+    BankAccount obj1;
+
+    obj1.setBalance(4000);
+
+    cout << obj1.getBalance();
+
+    return 0;
+}
