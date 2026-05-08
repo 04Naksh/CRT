@@ -104,3 +104,33 @@ int main() {
 
     return 0;
 }
+
+// program 4 multilevel inheritance
+#include<iostream>
+using namespace std;
+
+// Base class
+class papa {
+public:
+    void paisepapa() {
+        cout << "paise dedo papa" << "\n";
+    }
+};
+
+// Derived class
+class mummy : public papa {
+public:
+    void paisemummy() {
+        cout << "paise dedo mummy" << "\n";
+    }
+};
+
+int main() {
+
+    mummy m;
+
+    m.paisepapa();   // inherited from papa
+    m.paisemummy();  // own function
+
+    return 0;
+}
