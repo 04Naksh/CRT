@@ -1,1 +1,27 @@
+// Program 1: Single Inheritance
 
+#include<iostream>
+using namespace std;
+
+class vehicle {
+public:
+    void start() {
+        cout << "vehicle start" << "\n";
+    }
+};
+
+class car : public vehicle {
+public:
+    void drive() {
+        cout << "car is running" << "\n";
+    }
+};
+
+int main() {
+    car obj1;
+
+    obj1.start();   // inherited function
+    obj1.drive();
+
+    return 0;
+}
