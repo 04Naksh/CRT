@@ -134,3 +134,27 @@ int main() {
 
     return 0;
 }
+
+//program 5 hybrid inheritance, diamond problem solution, virtual base class?
+#include<iostream>
+using namespace std;
+
+class A{
+    public:
+    void print(){
+        cout <<"hi there";
+        
+    }
+};
+class B :  virtual public A {
+};
+class C :  virtual  public A {
+};
+class D :  virtual public B , public C {
+    
+};
+int main(){
+   D obj1;
+   obj1.print();
+    
+}
